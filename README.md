@@ -12,4 +12,10 @@ AWS_SECRET_ACCESS_KEY=****************************************
 AWS_DEFAULT_REGION=ap-south-1
 ```
 
-Run `cargo run --release` to generate temporary credentials.
+Run:
+
+```sh
+cargo run --release
+```
+
+to start the server at [`127.0.0.1:8000`](http://127.0.0.1:8000/).
