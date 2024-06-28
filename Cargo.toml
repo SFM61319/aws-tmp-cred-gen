@@ -1,6 +1,7 @@
 [package]
-name = "aws-tmp-cred-gen"
-version = "0.1.0"
 edition = "2021"
+name    = "aws-tmp-cred-gen"
+version = "0.1.0"
 
 [dependencies]
+tokio = { version = "1.38.0", features = ["full"] }
