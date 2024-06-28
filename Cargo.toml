@@ -4,5 +4,6 @@ name    = "aws-tmp-cred-gen"
 version = "0.1.0"
 
 [dependencies]
-aws-config = { version = "1.5.3", features = ["behavior-version-latest"] }
-tokio      = { version = "1.38.0", features = ["full"] }
+aws-config  = { version = "1.5.3", features = ["behavior-version-latest"] }
+aws-sdk-sts = { version = "1.33.0", features = ["behavior-version-latest"] }
+tokio       = { version = "1.38.0", features = ["full"] }
