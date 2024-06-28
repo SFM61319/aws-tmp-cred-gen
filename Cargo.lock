@@ -332,7 +332,6 @@ dependencies = [
  "aws-config",
  "aws-sdk-sts",
  "axum",
- "serde",
  "tokio",
 ]
 
