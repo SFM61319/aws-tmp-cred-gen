@@ -332,6 +332,7 @@ dependencies = [
  "aws-config",
  "aws-sdk-sts",
  "axum",
+ "serde_json",
  "tokio",
 ]
 
@@ -1271,6 +1272,7 @@ version = "1.0.118"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "d947f6b3163d8857ea16c4fa0dd4840d52f3041039a85decd46867eb1abef2e4"
 dependencies = [
+ "indexmap",
  "itoa",
  "ryu",
  "serde",

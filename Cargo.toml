@@ -7,4 +7,5 @@ version = "0.1.0"
 aws-config  = { version = "1.5.3", features = ["behavior-version-latest"] }
 aws-sdk-sts = { version = "1.33.0", features = ["behavior-version-latest"] }
 axum        = { version = "0.7.5", features = ["http2", "macros"] }
+serde_json  = { version = "1.0.118", features = ["preserve_order"] }
 tokio       = { version = "1.38.0", features = ["full"] }
