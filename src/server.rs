@@ -7,7 +7,7 @@ use tokio::net::TcpListener;
 use aws_tmp_cred_gen::generate_temporary_credentials_with_config_from_env;
 
 /// The address on which the server will listen for incoming connections.
-pub const ADDRESS: SocketAddr = SocketAddr::new(IpAddr::V4(Ipv4Addr::new(127, 0, 0, 0)), 8000);
+pub const ADDRESS: SocketAddr = SocketAddr::new(IpAddr::V4(Ipv4Addr::new(0, 0, 0, 0)), 8080);
 
 /// Starts the server and listens for incoming connections on the specified address.
 ///
